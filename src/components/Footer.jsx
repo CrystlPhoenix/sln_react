@@ -24,7 +24,7 @@ export default function Footer() {
               <p>About</p>
               </Link>
               <Link to={'/services'} className='hover:text-blue-700'>
-              <p>Our services</p>
+              <p>What We Do</p>
               </Link>
             </div>
           </div>

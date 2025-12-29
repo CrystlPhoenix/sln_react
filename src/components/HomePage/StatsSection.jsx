@@ -66,10 +66,10 @@
 //       {/* Main Content */}
 //       <div className="px-4 z-10 relative">
 //         <h2 className="text-2xl font-bold text-white text-center mb-5">
-//           Trusted by Businesses to Drive Growth and Success
+//           Trusted for Reliable Electrical and Power Engineering Solutions
 //         </h2>
 //         <p className="text-white text-center mb-16 text-sm">
-//           We connect you with the right services and solutions to help your business thrive.
+//           Delivering dependable engineering services that keep your systems running safely and efficiently.
 //         </p>
 
 //         <div className="grid grid-cols-2 lg:grid-cols-4 gap-10 text-center">
@@ -185,10 +185,10 @@ const StatsSection = () => {
       {/* Main Content */}
       <div className="px-4 z-10 relative">
         <h2 className="text-2xl font-bold text-white text-center mb-5">
-          Trusted by Businesses to Drive Growth and Success
+          Trusted for Reliable Electrical and Power Engineering Solutions
         </h2>
         <p className="text-white text-center mb-16 text-sm">
-          We connect you with the right services and solutions to help your business thrive.
+          Delivering dependable engineering services that keep your systems running safely and efficiently.
         </p>
 
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-10 text-center">

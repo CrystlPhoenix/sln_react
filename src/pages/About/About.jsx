@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import SEO from '../../components/Seo';
 import StatsSection from '../../components/HomePage/StatsSection';
 import MissionVisionSection from '../../components/AboutPage/MissionVisionSection';
+import PartnersNCustomers from '../../components/AboutPage/PartnersNCustomers';
 import WhyChooseUs from '../../components/AboutPage/WhyChooseUs';
 
 const About = () => {
@@ -20,6 +21,7 @@ const About = () => {
 
         <WhyChooseUs/>
         <StatsSection />
+        <PartnersNCustomers/>
         <MissionVisionSection/>
 
 

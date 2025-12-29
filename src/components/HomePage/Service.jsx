@@ -53,8 +53,8 @@
 //   return (
 //     <div className='py-15'>
 //       <div className='flex justify-center items-center w-full flex-col gap-4 text-center'>
-//         <p className='text-xl font-semibold'>Our Services</p>
-//         <h1 className='text-4xl font-semibold w-[50%] leading-relaxed'>Discover Services Designed to Help You Thrive</h1>
+//         <p className='text-xl font-semibold'>What We Do</p>
+//         <h1 className='text-4xl font-semibold w-[50%] leading-relaxed'>Comprehensive Electrical and Power Engineering Services</h1>
 //       </div>
 
 //       <div className='w-full grid grid-cols-3 gap-[2rem] py-15 pt-20'>
@@ -141,9 +141,9 @@
 //   return (
 //     <div className='py-15 px-4'>
 //       <div className='flex justify-center items-center w-full flex-col gap-4 text-center'>
-//         <p className='text-lg md:text-xl font-semibold'>Our Services</p>
+//         <p className='text-lg md:text-xl font-semibold'>What We Do</p>
 //         <h1 className='text-2xl md:text-4xl font-semibold md:w-[50%] w-full leading-relaxed'>
-//           Discover Services Designed to Help You Thrive
+//           Comprehensive Electrical and Power Engineering Services
 //         </h1>
 //       </div>
 
@@ -196,38 +196,38 @@ const Service = () => {
     {
       id: 1,
       icon: facility,
-      title: "Facility Management",
-      description: "We take pride in managing facilities with precision, ensuring operational smoothness and maintaining peak performance standards."
+      title: "Design, Installation & Commissioning",
+      description: "We design, install, and commission electrical power systems tailored to meet operational and safety standards across industries."
     },
     {
       id: 2,
       icon: epc,
-      title: "Engineering Procurement and Construction (EPC)",
-      description: "Transform your visions into reality with our end-to-end EPC services. From conceptualization to execution, we seamlessly integrate engineering, procurement, and construction processes to deliver projects that stand the test of time.."
+      title: "Operations & Maintenance Services",
+      description: "Daily, weekly, monthly, and annual maintenance services to ensure optimal performance of installed electrical equipment."
     },
     {
       id: 3,
       icon: power,
-      title: "Power and Energy Solutions:",
-      description: "At the forefront of energy innovation, we engineer sustainable power solutions that empower industries, communities, and businesses. From conventional to renewable energy sources, we ensure reliability and efficiency in every solution."
+      title: "Power Equipment Procurement & Supply",
+      description: "Supply of reliable power equipment and engineering materials sourced to meet project and operational requirements."
     },
     {
       id: 4,
       icon: wrench,
-      title: "Mechanical Services",
-      description: "Precision and durability define our Mechanical Services. Our expert team ensures that mechanical systems operate seamlessly, delivering performance that exceeds industry standards.."
+      title: "Power & Industrial Control Maintenance",
+      description: "Preventive and corrective maintenance services for power equipment and industrial control systems."
     },
     {
       id: 5,
       icon: automation,
-      title: "Automation",
-      description: "Embracing cutting-edge technology, we deploy automation solutions that optimize operations and streamline processes, enhancing productivity and performance."
+      title: "On-Site Equipment & Component Training",
+      description: "Hands-on training for personnel on the operation, maintenance, and safety of electrical equipment and components."
     },
     {
       id: 6,
       icon: blueprint,
-      title: "Engineering Designs and Consultancy",
-      description: "Our team of experts offers innovative designs and strategic consultancy services, providing tailored solutions to complex engineering challenges."
+      title: "Power System Audit & Analysis",
+      description: "Comprehensive audits and analysis to identify inefficiencies, risks, and opportunities for system optimization."
     },
   ];
 
@@ -242,14 +242,14 @@ const Service = () => {
         animate={headersInView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.8, ease: 'easeOut' }}
       >
-        {/* <p className='text-lg md:text-xl font-semibold'>Our Services</p> */}
+        {/* <p className='text-lg md:text-xl font-semibold'>What We Do</p> */}
         <div className='w-full text-center inline-flex gap-2 items-center justify-center'>
         
-        <p className='text-lg md:text-xl inline-block'>Our Services</p>
+        <p className='text-lg md:text-xl inline-block'>What We Do</p>
         <p className='w-8 sm:w-12 h-[1px] sm:h-[2px] bg-gray-700'></p>
       </div>
         <h1 className='text-2xl md:text-4xl md:w-[50%] w-full leading-relaxed'>
-          Discover Services Designed to Help You Thrive
+          Comprehensive Electrical and Power Engineering Services
         </h1>
       </motion.div>
 

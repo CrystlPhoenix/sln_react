@@ -8,13 +8,13 @@
     
 //       style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${home})` }}>
 //       <div className="max-w-3xl">
-//         <p  className='text-main-blue text-xl'>Empowering Tomorrow</p>
+//         <p  className='text-main-blue text-xl'>Powering Reliable Electrical Solutions</p>
 //         <h1 className="text-2xl md:text-5xl font-semibold leading-tight mb-6 mt-3">
-//         Your Gateway to Cutting-Edge Engineering Solutions!
+//         Electrical Engineering, Power Systems, and Industrial Solutions You Can Trust
 //         </h1>
 //         <Link to={'services'}>
 //         <button className="cursor-pointer bg-white text-main-blue px-6 py-3 text-sm font-semibold hover:bg-blue-100 transition">
-//           Explore Services
+//           View What We Do
 //         </button>
 //         </Link>
 //       </div>
@@ -45,7 +45,7 @@ const HeroSection = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.2 }}
         >
-          Empowering Tomorrow
+          Powering Reliable Electrical Solutions
         </motion.p>
 
         <motion.h1
@@ -54,7 +54,7 @@ const HeroSection = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 2, delay: 0.6 }}
         >
-          Your Gateway to Cutting-Edge Engineering Solutions!
+          Electrical Engineering, Power Systems, and Industrial Solutions You Can Trust
         </motion.h1>
 
         {/* Fade in from bottom */}
@@ -65,7 +65,7 @@ const HeroSection = () => {
         >
           <Link to={'services'}>
             <button className="cursor-pointer bg-white text-main-blue px-6 py-3 text-sm font-semibold hover:bg-blue-100 transition">
-              Explore Services
+              View What We Do
             </button>
           </Link>
         </motion.div>
@@ -153,13 +153,13 @@ export default HeroSection
 //       }}
 //     >
 //       <div className="max-w-3xl px-2 sm:px-4">
-//         <p className="text-blue-600 text-base sm:text-xl">Empowering Tomorrow</p>
+//         <p className="text-blue-600 text-base sm:text-xl">Powering Reliable Electrical Solutions</p>
 //         <h1 className="text-2xl sm:text-3xl md:text-5xl font-semibold leading-tight mb-6 mt-3">
-//           Your Gateway to Cutting-Edge Engineering Solutions!
+//           Electrical Engineering, Power Systems, and Industrial Solutions You Can Trust
 //         </h1>
 //         <Link to={'/services'}>
 //           <button className="cursor-pointer bg-white text-blue-600 px-5 py-2 sm:px-6 sm:py-3 text-sm sm:text-base font-semibold hover:bg-blue-100 transition">
-//             Explore Services
+//             View What We Do
 //           </button>
 //         </Link>
 //       </div>

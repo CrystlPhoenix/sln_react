@@ -74,7 +74,7 @@
 
 //       <div className='py-15'>
 //         <div className='flex justify-center items-center w-full flex-col gap-4 text-center'>
-//           <h1 className='text-xl lg:text-3xl font-semibold'>Discover Services Designed to Help You Thrive</h1>
+//           <h1 className='text-xl lg:text-3xl font-semibold'>Comprehensive Electrical and Power Engineering Services</h1>
 //           <p className='text-xs text-[85%] lg:w-[50%] leading-relaxed'>Your trusted partner in delivering a comprehensive suite of engineering solutions tailored to meet your diverse needs. With a commitment to excellence, innovation, and client satisfaction, we offer a wide range of services that cater to various facets of the engineering landscape.</p>
 //         </div>
 
@@ -189,7 +189,7 @@ const Services = () => {
           transition={{ duration: 0.8 }}
           className='flex justify-center items-center w-full flex-col gap-4 text-center'
         >
-          <h1 className='text-xl lg:text-3xl font-semibold'>Discover Services Designed to Help You Thrive</h1>
+          <h1 className='text-xl lg:text-3xl font-semibold'>Comprehensive Electrical and Power Engineering Services</h1>
           <p className='text-xs text-[85%] lg:w-[50%] leading-relaxed'>
             Your trusted partner in delivering a comprehensive suite of engineering solutions tailored to meet your diverse needs...
           </p>

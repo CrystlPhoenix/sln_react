@@ -243,30 +243,35 @@ import { motion, useInView } from 'framer-motion'
 
 const features = [
   {
-    title: "Holistic Expertise",
-    description: "One-stop-shop for a diverse range of engineering services.",
+    title: "End-to-End Engineering Expertise",
+    description:
+      "From system design and installation to maintenance, audits, and refurbishment, we deliver complete electrical engineering solutions under one roof.",
     number: "01",
     image: globe
   },
   {
-    title: "Quality Assurance",
-    description: "Adherence to the highest standards, ensuring reliability and excellence.",
+    title: "Quality & Safety Assurance",
+    description:
+      "All services are executed in line with industry standards, ensuring system reliability, operational safety, and long-term performance.",
     number: "02",
     image: quality
   },
   {
-    title: "Innovation Hub",
-    description: "Stay ahead with cutting-edge technology and sustainable practices.",
+    title: "Practical, Proven Solutions",
+    description:
+      "We apply proven technologies and engineering best practices to solve real-world power and industrial challenges efficiently.",
     number: "03",
     image: bulb
   },
   {
-    title: "Client-Focused",
-    description: "Tailored solutions that prioritize your unique needs.",
+    title: "Client-Driven Service Delivery",
+    description:
+      "Every project is approached with a clear understanding of client requirements, operational needs, and performance expectations.",
     number: "04",
     image: shake
   }
 ];
+
 
 const Welcome = () => {
   // Refs for each animated div
@@ -296,39 +301,40 @@ const Welcome = () => {
           transition={{ duration: 0.8, ease: 'easeOut' }}
         >
           <h3 className='text-sm md:text-base'>
-            Welcome to SLN Engineering Limited, where innovation, expertise, and dedication converge to redefine the landscape of engineering solutions. With a steadfast commitment to excellence, we have emerged as a leading provider of comprehensive services in the fields of engineering, procurement, construction, and beyond.
+            Welcome to SLN Engineering Limited, a trusted provider of electrical and power engineering solutions. We deliver reliable, efficient, and safety-focused services backed by technical expertise and hands-on industry experience.
           </h3>
 
           <p className='text-sm py-4'>
-            At SLN, we specialize in a spectrum of services tailored to meet the diverse needs of our clients. Our core offerings encompass:
+            We specialize in the design, installation, maintenance, and optimization of electrical power systems, supporting businesses with dependable solutions across operation, maintenance, and system performance.
           </p>
 
           <ul className='mt-5 flex flex-col gap-2 text-sm md:text-base'>
-            <li className='flex items-center gap-2'>
-              <FaArrowRight className='bg-blue-800 text-white rounded-full p-1 w-5 h-5' />
-              Engineering Excellence
-            </li>
-            <li className='flex items-center gap-2'>
-              <FaArrowRight className='bg-blue-800 text-white rounded-full p-1 w-5 h-5' />
-              Powering Tomorrow
-            </li>
-            <li className='flex items-center gap-2'>
-              <FaArrowRight className='bg-blue-800 text-white rounded-full p-1 w-5 h-5' />
-              Precision Mechanical Services
-            </li>
-            <li className='flex items-center gap-2'>
-              <FaArrowRight className='bg-blue-800 text-white rounded-full p-1 w-5 h-5' />
-              Automation Redefined
-            </li>
-            <li className='flex items-center gap-2'>
-              <FaArrowRight className='bg-blue-800 text-white rounded-full p-1 w-5 h-5' />
-              Facility Management Mastery
-            </li>
-            <li className='flex items-center gap-2'>
-              <FaArrowRight className='bg-blue-800 text-white rounded-full p-1 w-5 h-5' />
-              And many more..
-            </li>
-          </ul>
+  <li className='flex items-center gap-2'>
+    <FaArrowRight className='bg-blue-800 text-white rounded-full p-1 w-5 h-5' />
+    Electrical System Design, Installation & Commissioning
+  </li>
+  <li className='flex items-center gap-2'>
+    <FaArrowRight className='bg-blue-800 text-white rounded-full p-1 w-5 h-5' />
+    Operations & Maintenance 
+  </li>
+  <li className='flex items-center gap-2'>
+    <FaArrowRight className='bg-blue-800 text-white rounded-full p-1 w-5 h-5' />
+    Power Equipment Procurement & Supply
+  </li>
+  <li className='flex items-center gap-2'>
+    <FaArrowRight className='bg-blue-800 text-white rounded-full p-1 w-5 h-5' />
+    Power Equipment & Industrial Control Maintenance
+  </li>
+  <li className='flex items-center gap-2'>
+    <FaArrowRight className='bg-blue-800 text-white rounded-full p-1 w-5 h-5' />
+    Power System Audit, Analysis & Earthing Systems
+  </li>
+  <li className='flex items-center gap-2'>
+    <FaArrowRight className='bg-blue-800 text-white rounded-full p-1 w-5 h-5' />
+    Panel Building, Repair & Refurbishment
+  </li>
+</ul>
+
         </motion.div>
 
         {/* Animate div.two from right */}

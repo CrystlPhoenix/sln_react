@@ -54,7 +54,7 @@ export default function WhyChooseUs() {
 
           <Link to={'/services'}>
             <button className='bg-blue-800 px-4 py-5 text-white text-sm mt-8 cursor-pointer'>
-              SEE OUR SERVICES
+              SEE What We Do
             </button>
           </Link>
         </div>
