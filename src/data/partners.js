@@ -53,4 +53,4 @@
   },
 ];
 
-export default partners;
+export default partners; 
