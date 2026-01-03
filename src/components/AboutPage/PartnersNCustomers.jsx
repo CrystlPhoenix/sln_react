@@ -1,39 +1,132 @@
 import React from 'react'
 
 const PartnersNCustomers = () => {
-    const customers = [
-  "Tolaram Africa",
-  "BHN",
-  "Kellogg’s",
-  "Colgate",
-  "Arla",
-  "Ariel",
-  "Guinness Africa",
-  "Sonnex Packaging",
-  "Alaro City",
-  "Dasco Engineering",
-  "Checkers Africa",
-  "Dufil Prima Foods",
-  "TG Agric",
-  "Auro Private Ltd",
-  "Rosettee FZE",
-  "SFM",
+  const customers = [
+    { 
+      name: "Alaro City",
+      src: "new_section_images/customers/alaro_city.png",
+    },
+    { 
+      name: "Tolaram Africa",
+      src: "new_section_images/customers/tolaram.png",
+    },
+    { 
+      name: "bhn",
+      src: "new_section_images/customers/bhn.png",
+    },
+    { 
+      name: "Kellogg’s",
+      src:  "new_section_images/customers/kelloggs.png",
+    },
+    { 
+      name: "Colgate",
+      src:  "new_section_images/customers/colgate.svg",
+    },
+    { 
+      name: "Arla",
+      src:  "new_section_images/customers/arla.jpg",
+    },
+    { 
+      name: "Ariel",
+      src:  "new_section_images/customers/ariel.jpg",
+    },
+    { 
+      name: "Guinness Africa",
+      src:  "new_section_images/customers/guinness_africa.png",
+    },
+    { 
+      name: "Sonnex Packaging",
+      src:  "new_section_images/customers/sonnex_packaging.png",
+    },
+    { 
+      name: "TG Agri",
+      src:  "new_section_images/customers/Tg_Agri.jpg",
+    },
+    { 
+      name: "Dufil Prima Foods",
+      src:  "new_section_images/customers/dufil.jpg",
+    },
+    { 
+      name: "Checkers Africa",
+      src:  "new_section_images/customers/checkers.png",
+    },
+    { 
+      name: "Dasco Engineering",
+      src:  "new_section_images/customers/dasco.png",
+    },
+    { 
+      name: "Auro Private Ltd",
+      src:  "new_section_images/customers/auro.jpg",
+    },
+    { 
+      name: "Rosettee FZE",
+      src:  "new_section_images/customers/Rosettee.png",
+    },
+    { 
+      name: "SFM",
+      src:  "new_section_images/customers/sfm.png",
+    },
+  
+  
+  
+  
+  
+  
 ];
 
-const partners = [
-  "Schneider",
-  "ABB",
-  "Siemens",
-  "Chint",
-  "Delta",
-  "Himel",
-  "Philips",
-  "Legrand",
-  "Osram",
-  "Havells",
-  "Wipro",
-  "Syska LED",
-  "Bajaj",
+  const partners = [
+  { 
+      name: "Schneider",
+      src:  "new_section_images/partners/schneider.png",
+  },
+  { 
+      name: "Abb",
+      src:  "new_section_images/partners/ABB.png",
+  },
+  { 
+      name: "Siemens",
+      src:  "new_section_images/partners/Siemens.png",
+  },
+  { 
+      name: "Chint",
+      src:  "new_section_images/partners/Chint.png",
+  },
+  { 
+      name: "Delta",
+      src:  "new_section_images/partners/Delta.png",
+  },
+  { 
+      name: "Himel",
+      src:  "new_section_images/partners/Himel.png",
+  },
+  { 
+      name: "Philips",
+      src:  "new_section_images/partners/Philips.png",
+  },
+  { 
+      name: "Legrand",
+      src:  "new_section_images/partners/Legrand.png",
+  },
+  { 
+      name: "Osram",
+      src:  "new_section_images/partners/Osram.png",
+  },
+  { 
+      name: "Havells",
+      src:  "new_section_images/partners/Havells.png",
+  },
+  { 
+      name: "Wipro",
+      src:  "new_section_images/partners/Wipro.png",
+  },
+  { 
+      name: "yska LED",
+      src:  "new_section_images/partners/Syska.png",
+  },
+  { 
+      name: "Bajaj",
+      src:  "new_section_images/partners/Bajaj.png",
+  },
 ];
 
   return (
@@ -62,10 +155,15 @@ const partners = [
         {customers.map((customer, index) => (
           <div
             key={index}
-            className="flex items-center justify-center bg-white border rounded-lg py-4 px-3 text-sm text-gray-700 hover:shadow-md transition"
+            className="flex items-center justify-center
+    bg-white shadow-md rounded-lg
+    aspect-[4/2]
+    p-4
+    hover:shadow-md transition"
           >
-            <img src={customerimage}/>
-            {customer}
+            <img src={customer.src} alt={`${customer.name} logo`} className=' max-h-full
+      max-w-full
+      object-contain' />
           </div>
         ))}
       </div>
@@ -86,9 +184,15 @@ const partners = [
         {partners.map((partner, index) => (
           <div
             key={index}
-            className="flex items-center justify-center bg-white border rounded-lg py-4 px-3 text-sm font-medium text-gray-700 hover:shadow-md transition"
+            className="flex items-center justify-center
+    bg-white shadow-md rounded-lg
+    aspect-[4/2]
+    p-4
+    hover:shadow-md transition"
           >
-            {partner}
+            <img src={partner.src} alt={`${partner.name} logo`} className=' max-h-full
+      max-w-full
+      object-contain' />
           </div>
         ))}
       </div>
