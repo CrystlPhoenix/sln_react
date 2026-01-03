@@ -15,11 +15,34 @@ const Home = () => {
     <div>
       {/* <HeroSection /> */}
       <SEO
-        title="S.L.N Engineering Limited"
-        description="Discover unparalleled engineering solutions with S.L.N Engineering Limited. From Engineering Procurement and Construction (EPC) to Power and Energy Solutions, Mechanical Services, Automation, Facility Management, and more. Our expertise encompasses innovative engineering designs and consultancy, sales of top-quality engineering spares and materials, and cutting-edge Solar Lights and Panels Solutions. Partner with us for excellence in every facet of your project."
-        keywords="S.L.N, S.L.N ENG, S.L.N ENGINEERING LIMITED, s.l.n, s.l.neng, s.l.n engineering limited, s.l.nenglimited,sln, slneng, eng, engineering, engineering limited, Engineering Procurement and Construction,Power and Energy Solutions, Mechanical Services, Automation, Facility Management, Engineering Designs and Consultancy, Sales and Supplies of Engineering Spares and Materials, Solar Lights and Panels Solutions"
+        title="S.L.N Engineering Limited | Electrical, Power & Energy Engineering Solutions"
+        description="S.L.N Engineering Limited provides comprehensive electrical and power engineering solutions, including low and medium voltage equipment, power and energy systems, solar solutions, lighting systems, building management systems, and industrial electrical services. We specialize in design, installation, commissioning, maintenance, power equipment supply, and engineering consultancy across Nigeria."
+        keywords="
+    SLN Engineering Limited,
+    electrical engineering company Nigeria,
+    power engineering solutions,
+    electrical power systems,
+    low voltage electrical equipment,
+    medium voltage switchgear,
+    circuit breakers and motor control,
+    power management systems,
+    solar energy solutions Nigeria,
+    solar panels and inverters,
+    battery and hybrid energy systems,
+    industrial lighting solutions,
+    LED lighting systems,
+    building management systems,
+    fire and smoke alarm systems,
+    electrical testing instruments,
+    power equipment procurement,
+    electrical installation and commissioning,
+    electrical maintenance services,
+    industrial electrical services,
+    panel building and refurbishment
+  "
         canonical="https://slneng.com"
       />
+
       <h3 className="mb-4 text-center text-sm font-semibold tracking-widest text-gray-500">
         OUR PARTNERS
       </h3>
