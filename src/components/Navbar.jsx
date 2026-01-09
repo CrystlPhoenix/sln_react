@@ -180,6 +180,7 @@ export default function Navbar({ isHomePage }) {
               <li key={to}>
                 <NavLink
                   to={to}
+                  // eslint-disable-next-line no-unused-vars
                   className={({ isActive }) =>
                     `relative pb-1 transition-colors duration-300`
                   }

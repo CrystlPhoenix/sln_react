@@ -6,9 +6,10 @@ import StatsSection from '../../components/HomePage/StatsSection'
 import Service from '../../components/HomePage/Service'
 import Ready from '../../components/Ready'
 import SEO from '../../components/Seo'
-import partners from '../../data/partners'
+import PartnersNCustomers from '../../components/AboutPage/PartnersNCustomers'
+/* import partners from '../../data/partners'
 import customers from '../../data/customers'
-
+ */
 
 const Home = () => {
   return (
@@ -43,6 +44,21 @@ const Home = () => {
         canonical="https://slneng.com"
       />
 
+      
+
+      <Welcome />
+      <Service />
+      
+      <h3 className="mt-12 mb-4 text-center text-sm font-semibold tracking-widest text-gray-500">
+        TRUSTED BY
+      </h3>
+      {/* <Marquee speed={35}>
+        {customers.map(c => (
+          <div key={c.name} className="mx-10 flex items-center">
+            <img src={c.src} alt={c.name} className="h-12 w-auto object-contain" />
+          </div>
+        ))}
+      </Marquee>
       <h3 className="mb-4 text-center text-sm font-semibold tracking-widest text-gray-500">
         OUR PARTNERS
       </h3>
@@ -52,20 +68,11 @@ const Home = () => {
             <img src={p.src} alt={p.name} className="h-12 w-auto object-contain" />
           </div>
         ))}
-      </Marquee>
-      <h3 className="mt-12 mb-4 text-center text-sm font-semibold tracking-widest text-gray-500">
-        TRUSTED BY
-      </h3>
-      <Marquee speed={35}>
-        {customers.map(c => (
-          <div key={c.name} className="mx-10 flex items-center">
-            <img src={c.src} alt={c.name} className="h-12 w-auto object-contain" />
-          </div>
-        ))}
-      </Marquee>
-      <Welcome />
-      <Service />
+
+      </Marquee> */}
+      <PartnersNCustomers />
       <StatsSection />
+      
       <Ready />
     </div>
   )

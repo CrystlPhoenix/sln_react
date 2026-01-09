@@ -27,7 +27,7 @@ export function Marquee({
 
   return (
     <div
-      className={`relative w-full overflow-hidden ${className}`}
+      className={`mb-6 relative w-full overflow-hidden ${className}`}
       {...props}
     >
       <motion.div

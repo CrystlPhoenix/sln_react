@@ -1,5 +1,4 @@
 
-import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo_color.png'
 import { FaXTwitter } from "react-icons/fa6";
@@ -53,7 +52,7 @@ export default function Footer() {
   >
     <FaLinkedinIn />
   </a>
-          <FaXTwitter /><FaFacebookF />
+          <FaFacebookF />
           </div>
         </div>
       </div>

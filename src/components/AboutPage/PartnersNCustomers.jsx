@@ -130,8 +130,8 @@ const PartnersNCustomers = () => {
 ];
 
   return (
-    <div>
-        <section className="w-full py-16 bg-gray-50">
+    <div >
+        <section className="w-full py-16 ">
   <div className="max-w-7xl mx-auto px-4">
 
     {/* Section Header */}

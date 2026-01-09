@@ -261,7 +261,7 @@ const Service = () => {
           <motion.div
             key={service.id}
             ref={index === 0 ? groupOneRef : null} // attach ref only once
-            className='py-9 px-6 hover:shadow-md'
+            className='py-9 px-6 bg-white hover:shadow-md'
             initial={{ opacity: 0, y: 40 }}
             animate={groupOneInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6, delay: index * 0.2 }}
@@ -277,7 +277,7 @@ const Service = () => {
           <motion.div
             key={service.id}
             ref={index === 0 ? groupTwoRef : null}
-            className='py-9 px-6 hover:shadow-md'
+            className='py-9 bg-white px-6 hover:shadow-md'
             initial={{ opacity: 0, y: 40 }}
             animate={groupTwoInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6, delay: index * 0.2 }}
