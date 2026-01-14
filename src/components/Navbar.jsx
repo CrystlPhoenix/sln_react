@@ -94,7 +94,7 @@ export default function Navbar({ isHomePage }) {
     >
       <nav className="w-full max-w-screen-2xl mx-auto px-6 md:px-[5%] lg:px-[10%] py-3 flex items-center justify-between">
         <NavLink to="/" onClick={() => setIsMenuOpen(false)}>
-          <img src={logo} className="w-[6rem]" alt="SLN logo image" />
+          <img src={logo} className="w-[13rem]" alt="SLN logo image" />
         </NavLink>
 
         {/* Desktop menu */}

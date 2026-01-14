@@ -28,7 +28,7 @@ const PartnersNCustomers = () => {
     },
     { 
       name: "Ariel",
-      src:  "new_section_images/customers/ariel.jpg",
+      src:  "new_section_images/customers/ariel.png",
     },
     { 
       name: "Guinness Africa",
@@ -57,10 +57,6 @@ const PartnersNCustomers = () => {
     { 
       name: "Auro Private Ltd",
       src:  "new_section_images/customers/auro.jpg",
-    },
-    { 
-      name: "Rosettee FZE",
-      src:  "new_section_images/customers/Rosettee.png",
     },
     { 
       name: "SFM",
