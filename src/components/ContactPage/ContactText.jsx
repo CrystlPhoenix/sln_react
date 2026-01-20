@@ -56,7 +56,7 @@ const contactItems = [
   {
     icon: <MdOutlineLocalPhone size={50} />,
     title: 'Call Us',
-    description: '09153864376'
+    description: '+2349153864376'
   },
   {
     icon: <IoMailOutline size={50} />,
