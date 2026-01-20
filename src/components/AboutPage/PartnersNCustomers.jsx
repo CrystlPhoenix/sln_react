@@ -44,7 +44,7 @@ const PartnersNCustomers = () => {
     },
     {
       name: "Dufil Prima Foods",
-      src: "new_section_images/customers/dufil.jpg",
+      src: "new_section_images/customers/dufil.jpeg",
     },
     {
       name: "Checkers Africa",
