@@ -144,7 +144,7 @@ const PartnersNCustomers = () => {
               {customers.map((customer, index) => (
                 <div
                   key={index}
-                  className="flex items-center justify-centerbg-white shadow-md rounded-lg aspect-[4/2] p-3 md:p-4 hover:shadow-md transition"
+                  className="flex items-center justify-center bg-white shadow-md rounded-lg aspect-[4/2] p-3 md:p-4 hover:shadow-md transition"
                 >
                   <img
                     src={customer.src}
