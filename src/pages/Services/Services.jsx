@@ -112,6 +112,8 @@ import solar from '../../assets/solar-energy.png';
 import Ready from '../../components/Ready';
 import SEO from '../../components/Seo';
 import DiscoverSection from '../../components/Discover';
+import WhyChooseUs from '../../components/AboutPage/WhyChooseUs';
+import '../../Bg.css'
 
 const Services = () => {
   const headerRef = useRef(null);
@@ -203,7 +205,7 @@ const Services = () => {
           {servicesData.map((service, index) => (
             <motion.div
               key={service.id}
-              className='py-9 px-6 hover:shadow-md'
+              className='py-9 bg-white shadow-sm px-6 hover:shadow-md'
               initial={{ opacity: 0, y: 40 }}
               animate={cardsInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: index * 0.1 }}

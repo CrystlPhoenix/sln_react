@@ -17,7 +17,7 @@ export default function Layout({ children }) {
       {/* {showHero && <HeroSection/>} */}
       {isHomePage && <HeroSection />}
       
-      <main key={location.pathname} className={`w-full  px-4 max-w-[100rem] mx-auto py-8 ${!isHomePage ? 'pt-[7rem]' : ''}`}>
+      <main key={location.pathname} className={`w-full  px-4 max-w-[100rem] mx-auto py-8 ${!isHomePage ? 'pt-80' : ''}`}>
         {children}
       </main>
       {/* {isHomePage && <StatsSection/>} */}

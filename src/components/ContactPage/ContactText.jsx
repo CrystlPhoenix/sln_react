@@ -82,7 +82,7 @@ const ContactText = () => {
         {contactItems.map((item, index) => (
           <div
             key={index}
-            className='hover:text-white hover:bg-blue-800 transition-all duration-300 ease-in-out flex items-center justify-center flex-col gap-3 text-center py-7 px-3 border border-gray-300'
+            className='hover:text-white bg-white hover:bg-blue-800 transition-all duration-300 ease-in-out flex items-center justify-center flex-col gap-3 text-center py-7 px-3 shadow-md'
           >
             {item.icon}
             <p className='text-lg lg:text-xl font-semibold'>{item.title}</p>

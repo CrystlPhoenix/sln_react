@@ -7,10 +7,10 @@ import StatsSection from '../../components/HomePage/StatsSection';
 import MissionVisionSection from '../../components/AboutPage/MissionVisionSection';
 import PartnersNCustomers from '../../components/AboutPage/PartnersNCustomers';
 import WhyChooseUs from '../../components/AboutPage/WhyChooseUs';
-
+import '../../Bg.css'
 const About = () => {
   return (
-    <div>
+    <div id='white'>
       <SEO
         title="About Us - S.L.N Engineering Limited"
         description="Explore the story behind SLN, a leading force in providing comprehensive engineering solutions. Learn about our expertise in Engineering Procurement and Construction (EPC), Power and Energy Solutions, Mechanical Services, Automation, Facility Management, Engineering Designs and Consultancy. Discover how we excel in sales and supplies of top-quality engineering spares and materials, and pioneering Solar Lights and Panels Solutions. Dive into our journey of innovation, client-centric philosophy, and commitment to shaping the future of engineering excellence."

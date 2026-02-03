@@ -30,10 +30,11 @@ import ContactText from '../../components/ContactPage/ContactText'
 import ContactForm from '../../components/ContactPage/ContactForm'
 import LocationMap from '../../components/LocationMap'
 import SEO from '../../components/Seo'
+import '../../Bg.css'
 
 const Contact = () => {
   return (
-    <div>
+    <div >
       <SEO
         title="Contact - S.L.N Engineering Limited"
         canonical="https://slneng.com/contact"

@@ -25,7 +25,7 @@
 // export default HeroSection
 
 import React from 'react'
-import home from '../../assets/home.jpg'
+import home from '../../assets/cover.jpg'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 
@@ -34,7 +34,7 @@ const HeroSection = () => {
     <section
       className="h-[82vh] lg:h-screen bg-cover bg-center flex items-center justify-center text-white text-center px-4"
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${home})`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(${home})`,
       }}
     >
       <div className="max-w-3xl">

@@ -13,7 +13,7 @@ import customers from '../../data/customers'
 
 const Home = () => {
   return (
-    <div>
+    <div id="white">
       {/* <HeroSection /> */}
       <SEO
         title="S.L.N Engineering Limited | Electrical, Power & Energy Engineering Solutions"

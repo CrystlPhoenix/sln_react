@@ -138,22 +138,22 @@ const ContactForm = () => {
       <form ref={form} onSubmit={sendEmail} className='flex flex-col gap-4'>
         <div className='w-full flex flex-col gap-2'>
           <label>Name:</label>
-          <input type="text" name="name" required className="text-black px-5 py-2 outline-none border border-gray-300" />
+          <input type="text" name="name" required className="bg-white text-black px-5 py-2 outline-none border border-gray-300" />
         </div>
 
         <div className='w-full flex flex-col gap-2'>
           <label>Email:</label>
-          <input type="email" name="email" required className="text-black px-5 py-2 outline-none border border-gray-300" />
+          <input type="email" name="email" required className="bg-white text-black px-5 py-2 outline-none border border-gray-300" />
         </div>
 
         <div className='w-full flex flex-col gap-2'>
           <label>Subject:</label>
-          <input type="text" name="title" required className="text-black px-5 py-2 outline-none border border-gray-300" />
+          <input type="text" name="title" required className="bg-white text-black px-5 py-2 outline-none border border-gray-300" />
         </div>
 
         <div className='w-full flex flex-col gap-2'>
           <label>Message:</label>
-          <textarea name="message" required rows="5" className="resize-none text-black px-5 py-3 outline-none border border-gray-300"></textarea>
+          <textarea name="message" required rows="5" className="resize-none bg-white text-black px-5 py-3 outline-none border border-gray-300"></textarea>
         </div>
 
         <div>
